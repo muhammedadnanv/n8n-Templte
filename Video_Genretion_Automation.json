@@ -11,8 +11,8 @@
       "name": "Sticky Note",
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        180,
-        -140
+        -892,
+        740
       ],
       "typeVersion": 1
     },
@@ -27,8 +27,8 @@
       "name": "Sticky Note1",
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        160,
-        400
+        286,
+        760
       ],
       "typeVersion": 1
     },
@@ -42,8 +42,8 @@
       "name": "Assign Social Media IDs",
       "type": "n8n-nodes-base.set",
       "position": [
-        240,
-        1060
+        1496,
+        880
       ],
       "typeVersion": 3.4
     },
@@ -65,8 +65,8 @@
       "name": "Get my video",
       "type": "n8n-nodes-base.googleSheets",
       "position": [
-        340,
-        820
+        1276,
+        880
       ],
       "typeVersion": 4.5
     },
@@ -98,8 +98,8 @@
       "name": "Upload Video to Blotato",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        460,
-        1060
+        1716,
+        880
       ],
       "typeVersion": 4.2
     },
@@ -125,8 +125,8 @@
       "name": "INSTAGRAM",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        740,
-        820
+        1936,
+        -20
       ],
       "typeVersion": 4.2
     },
@@ -152,8 +152,8 @@
       "name": "YOUTUBE",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        960,
-        820
+        1936,
+        180
       ],
       "typeVersion": 4.2
     },
@@ -179,8 +179,8 @@
       "name": "TIKTOK",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        1160,
-        820
+        1936,
+        380
       ],
       "typeVersion": 4.2
     },
@@ -206,8 +206,8 @@
       "name": "FACEBOOK",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        740,
-        1060
+        1936,
+        580
       ],
       "typeVersion": 4.2
     },
@@ -233,8 +233,8 @@
       "name": "THREADS",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        960,
-        1060
+        1936,
+        780
       ],
       "typeVersion": 4.2
     },
@@ -260,8 +260,8 @@
       "name": "TWETTER",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        1160,
-        1060
+        1936,
+        980
       ],
       "typeVersion": 4.2
     },
@@ -287,8 +287,8 @@
       "name": "LINKEDIN",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        740,
-        1300
+        1936,
+        1380
       ],
       "typeVersion": 4.2
     },
@@ -314,8 +314,8 @@
       "name": "BLUESKY",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        960,
-        1300
+        1936,
+        1580
       ],
       "typeVersion": 4.2
     },
@@ -341,8 +341,8 @@
       "name": "PINTEREST",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        1160,
-        1300
+        1936,
+        1780
       ],
       "typeVersion": 4.2
     },
@@ -435,15 +435,15 @@
       "name": "Google Sheets",
       "type": "n8n-nodes-base.googleSheets",
       "position": [
-        460,
-        1300
+        1936,
+        1180
       ],
       "typeVersion": 4.5
     },
     {
       "parameters": {
         "content": "# ✅ STEP 3 — Publish Video to Social Media\n",
-        "height": 760,
+        "height": 2100,
         "width": 1200,
         "color": 4
       },
@@ -451,8 +451,8 @@
       "name": "Sticky Note2",
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        160,
-        720
+        1166,
+        -160
       ],
       "typeVersion": 1
     },
@@ -468,8 +468,8 @@
       "name": "Trigger: Run Daily Script Generator",
       "type": "n8n-nodes-base.scheduleTrigger",
       "position": [
-        300,
-        -40
+        -860,
+        880
       ],
       "typeVersion": 1.2
     },
@@ -486,8 +486,8 @@
       "name": "AI Agent: Generate Video Concept",
       "type": "@n8n/n8n-nodes-langchain.agent",
       "position": [
-        460,
-        -40
+        -608,
+        880
       ],
       "typeVersion": 1.9
     },
@@ -497,8 +497,8 @@
       "name": "Tool: Inject Creativity",
       "type": "@n8n/n8n-nodes-langchain.toolThink",
       "position": [
-        540,
-        220
+        -520,
+        1100
       ],
       "typeVersion": 1
     },
@@ -516,8 +516,8 @@
       "name": "LLM: Generate Idea & Caption (GPT-4.1)",
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
       "position": [
-        380,
-        220
+        -640,
+        1100
       ],
       "typeVersion": 1.2,
       "credentials": {
@@ -535,8 +535,8 @@
       "name": "Parser: Extract JSON from Idea",
       "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
       "position": [
-        700,
-        220
+        -400,
+        1100
       ],
       "typeVersion": 1.2
     },
@@ -631,8 +631,8 @@
       "name": "Google Sheets: Save Script Idea",
       "type": "n8n-nodes-base.googleSheets",
       "position": [
-        820,
-        -40
+        -200,
+        880
       ],
       "typeVersion": 4.5,
       "credentials": {
@@ -655,8 +655,8 @@
       "name": "AI Agent: Create Veo3-Compatible Prompt",
       "type": "@n8n/n8n-nodes-langchain.agent",
       "position": [
-        980,
-        -40
+        20,
+        880
       ],
       "typeVersion": 1.9
     },
@@ -666,8 +666,8 @@
       "name": "Tool: Build Prompt Structure",
       "type": "@n8n/n8n-nodes-langchain.toolThink",
       "position": [
-        1180,
-        220
+        168,
+        1100
       ],
       "typeVersion": 1
     },
@@ -685,8 +685,8 @@
       "name": "LLM: Format Prompt for Veo3 (GPT-4.1)",
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
       "position": [
-        1000,
-        220
+        48,
+        1100
       ],
       "typeVersion": 1.2
     },
@@ -713,8 +713,8 @@
       "name": "Call Veo3 API to Generate Video",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        340,
-        480
+        396,
+        880
       ],
       "typeVersion": 4.2
     },
@@ -724,8 +724,8 @@
       "name": "Wait for Veo3 Processing (5 mins)",
       "type": "n8n-nodes-base.wait",
       "position": [
-        560,
-        480
+        616,
+        880
       ],
       "webhookId": "861e2761-369b-407b-9e88-1b176e617cd8",
       "typeVersion": 1.1
@@ -741,8 +741,8 @@
       "name": "Retrieve Final Video URL from Veo3",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        840,
-        480
+        836,
+        880
       ],
       "typeVersion": 4.2
     },
@@ -847,22 +847,22 @@
       "name": "Google Sheets: Log Final Video Output",
       "type": "n8n-nodes-base.googleSheets",
       "position": [
-        1160,
-        480
+        1056,
+        880
       ],
       "typeVersion": 4.5
     },
     {
       "parameters": {
         "content": "Automate video creation with Veo3 and auto-post to Instagram, TikTok via Blotato\nWho is this for?\nThis template is ideal for content creators, social media managers, YouTubers, and digital marketers who want to generate high-quality videos daily using AI and distribute them effortlessly across multiple platforms.\n\nIt’s perfect for anyone who wants to scale short-form content creation without video editing tools.\n\nWhat problem is this workflow solving?\nCreating and distributing consistent video content requires:\n\nGenerating ideas\nWriting scripts and prompts\nRendering videos\nManually posting to platforms\nThis workflow automates all of that. It transforms one prompt into a professional AI-generated video and publishes it automatically — saving time and increasing reach.\n\nWhat this workflow does\nTriggers daily to generate a new idea with OpenAI (or your custom prompt).\nCreates a video prompt formatted specifically for Google Veo3.\nGenerates a cinematic video using the Veo3 API.\nLogs the video data into a Google Sheet.\nRetrieves the final video URL once Veo3 finishes rendering.\nUploads the video to Blotato for publishing.\nAuto-posts the video to Instagram, TikTok, YouTube, Facebook, LinkedIn, Threads, Twitter (X), Pinterest, and Bluesky.\nSetup\nAdd your OpenAI API key to the GPT-4.1 nodes.\nConnect your Veo3 API credentials in the video generation node.\nLink your Google Sheets account and use a sheet with columns: Prompt, Video URL, Status.\nConnect your Blotato API key and set your platform IDs in the Assign Social Media IDs node.\nAdjust the Schedule Trigger to your desired posting frequency.\nHow to customize this workflow to your needs\nEdit the AI prompt to align with your niche (fitness, finance, education, etc.).\nAdd your own branding overlays using JSON2Video or similar tools.\nChange platform selection by enabling/disabling specific HTTP Request nodes.\nAdd a Telegram step to preview the video before auto-posting.\nTrack performance by adding metrics columns in Google Sheets.",
-        "height": 1240,
-        "width": 340
+        "height": 1120,
+        "width": 440
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
-        -1120,
-        -60
+        -1640,
+        -80
       ],
       "id": "256ae280-c937-4f11-82ba-d7c98d1518b7",
       "name": "Sticky Note5"
@@ -1096,7 +1096,7 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "956ab015-4d63-4f52-b50c-cd8946dc0728",
+  "versionId": "1a81f2a2-68b2-4420-aabf-f6837e22ef74",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "eb7e0532567c3a4270c1045cabb84819782e13ecd5edd3b9a27f123feeac536f"
